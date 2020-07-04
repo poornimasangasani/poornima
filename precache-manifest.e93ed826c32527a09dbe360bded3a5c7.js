@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdf80f704e1a59f6b2cf78349a90ab49",
+    "revision": "26892f8bff260c2abc752d7e22c17636",
     "url": "/poornima/index.html"
   },
   {
-    "revision": "a9ef47c6764c49775bcb",
+    "revision": "f104387f04b5df659572",
     "url": "/poornima/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "0ce5f183b5b8072ffaff",
-    "url": "/poornima/static/js/2.b609c125.chunk.js"
+    "revision": "257992e043105debef81",
+    "url": "/poornima/static/js/2.fa562858.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/poornima/static/js/2.b609c125.chunk.js.LICENSE.txt"
+    "url": "/poornima/static/js/2.fa562858.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9ef47c6764c49775bcb",
-    "url": "/poornima/static/js/main.2f7f28bf.chunk.js"
+    "revision": "f104387f04b5df659572",
+    "url": "/poornima/static/js/main.9ab0dd59.chunk.js"
   },
   {
     "revision": "0ac625b2e71623697e7d",
