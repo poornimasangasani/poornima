@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/poornima/static/css/main.5f361e03.chunk.css",
+    "main.js": "/poornima/static/js/main.2f7f28bf.chunk.js",
+    "main.js.map": "/poornima/static/js/main.2f7f28bf.chunk.js.map",
+    "runtime-main.js": "/poornima/static/js/runtime-main.6dba0155.js",
+    "runtime-main.js.map": "/poornima/static/js/runtime-main.6dba0155.js.map",
+    "static/js/2.b609c125.chunk.js": "/poornima/static/js/2.b609c125.chunk.js",
+    "static/js/2.b609c125.chunk.js.map": "/poornima/static/js/2.b609c125.chunk.js.map",
+    "index.html": "/poornima/index.html",
+    "precache-manifest.956f3c0bded3288daf98ccda8d09af33.js": "/poornima/precache-manifest.956f3c0bded3288daf98ccda8d09af33.js",
+    "service-worker.js": "/poornima/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/poornima/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b609c125.chunk.js.LICENSE.txt": "/poornima/static/js/2.b609c125.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/poornima/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6dba0155.js",
+    "static/js/2.b609c125.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.2f7f28bf.chunk.js"
+  ]
+}
