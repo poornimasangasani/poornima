@@ -1,13 +1,10 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Page from "./component";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello poornima</h1>
-    </div>
-  );
+  return <Page />;
 }
 
 export default App;
