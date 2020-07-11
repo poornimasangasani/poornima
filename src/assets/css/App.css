@@ -38,6 +38,37 @@
 }
 
 .ant-layout-header {
-  background-color: darkslategrey;
+  background-color: rgb(36, 39, 39);
   color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+.ant-layout-header a {
+  color: white;
+}
+.ant-layout-header a:hover {
+  color: white;
+}
+.ant-layout-content {
+  text-align: center;
+}
+
+.ant-layout-footer {
+  background-color: rgb(36, 39, 39);
+  text-align: center;
+}
+
+.nameHeader {
+  left: -9%;
+  color: white;
+  position: relative;
+}
+@media only screen and (min-width: 600px) {
+  .nameHeader {
+    color: "white";
+    position: relative;
+    left: -79%;
+  }
 }
