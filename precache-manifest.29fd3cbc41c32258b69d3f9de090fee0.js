@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef086104857206ccd36f7f43d97891be",
+    "revision": "f9f6066ef08a842f12c73c178b363986",
     "url": "/poornima/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poornima/static/css/2.4c4477be.chunk.css"
   },
   {
-    "revision": "ab277f21b1e8a4b09cec",
+    "revision": "e1d789e9a183d22e9f0c",
     "url": "/poornima/static/css/main.42eca4d8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poornima/static/js/2.3de81970.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab277f21b1e8a4b09cec",
-    "url": "/poornima/static/js/main.e5da99cf.chunk.js"
+    "revision": "e1d789e9a183d22e9f0c",
+    "url": "/poornima/static/js/main.81ffdac0.chunk.js"
   },
   {
     "revision": "0ac625b2e71623697e7d",
