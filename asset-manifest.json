@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.42eca4d8.chunk.css",
-    "main.js": "/static/js/main.d71283c2.chunk.js",
-    "main.js.map": "/static/js/main.d71283c2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.08d55f92.js",
-    "runtime-main.js.map": "/static/js/runtime-main.08d55f92.js.map",
-    "static/css/2.4c4477be.chunk.css": "/static/css/2.4c4477be.chunk.css",
-    "static/js/2.3de81970.chunk.js": "/static/js/2.3de81970.chunk.js",
-    "static/js/2.3de81970.chunk.js.map": "/static/js/2.3de81970.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4ea7780274c167483498685a9c4c03b1.js": "/precache-manifest.4ea7780274c167483498685a9c4c03b1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.4c4477be.chunk.css.map": "/static/css/2.4c4477be.chunk.css.map",
-    "static/css/main.42eca4d8.chunk.css.map": "/static/css/main.42eca4d8.chunk.css.map",
-    "static/js/2.3de81970.chunk.js.LICENSE.txt": "/static/js/2.3de81970.chunk.js.LICENSE.txt",
-    "static/media/backgroundImg.jpg": "/static/media/backgroundImg.07c3c4f3.jpg",
-    "static/media/poornimaResume.pdf": "/static/media/poornimaResume.3a2653f8.pdf"
+    "main.css": "/poornima/static/css/main.42eca4d8.chunk.css",
+    "main.js": "/poornima/static/js/main.e5da99cf.chunk.js",
+    "main.js.map": "/poornima/static/js/main.e5da99cf.chunk.js.map",
+    "runtime-main.js": "/poornima/static/js/runtime-main.6dba0155.js",
+    "runtime-main.js.map": "/poornima/static/js/runtime-main.6dba0155.js.map",
+    "static/css/2.4c4477be.chunk.css": "/poornima/static/css/2.4c4477be.chunk.css",
+    "static/js/2.3de81970.chunk.js": "/poornima/static/js/2.3de81970.chunk.js",
+    "static/js/2.3de81970.chunk.js.map": "/poornima/static/js/2.3de81970.chunk.js.map",
+    "index.html": "/poornima/index.html",
+    "precache-manifest.87cd966a50ce59c93cc4cb6ad5353d6a.js": "/poornima/precache-manifest.87cd966a50ce59c93cc4cb6ad5353d6a.js",
+    "service-worker.js": "/poornima/service-worker.js",
+    "static/css/2.4c4477be.chunk.css.map": "/poornima/static/css/2.4c4477be.chunk.css.map",
+    "static/css/main.42eca4d8.chunk.css.map": "/poornima/static/css/main.42eca4d8.chunk.css.map",
+    "static/js/2.3de81970.chunk.js.LICENSE.txt": "/poornima/static/js/2.3de81970.chunk.js.LICENSE.txt",
+    "static/media/backgroundImg.jpg": "/poornima/static/media/backgroundImg.07c3c4f3.jpg",
+    "static/media/poornimaResume.pdf": "/poornima/static/media/poornimaResume.3a2653f8.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.08d55f92.js",
+    "static/js/runtime-main.6dba0155.js",
     "static/css/2.4c4477be.chunk.css",
     "static/js/2.3de81970.chunk.js",
     "static/css/main.42eca4d8.chunk.css",
-    "static/js/main.d71283c2.chunk.js"
+    "static/js/main.e5da99cf.chunk.js"
   ]
 }
