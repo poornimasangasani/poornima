@@ -13,7 +13,7 @@ class AppRoutes extends Component {
         <Route path="/resume">
           <Resume />
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
       </Switch>

@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #19191a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,11 +38,11 @@
 }
 
 .ant-layout-header {
-  background-color: rgb(36, 39, 39);
-  color: white;
+  background-color: #19191a;
   display: flex;
-  justify-content: flex-end;
+  color: white;
   font-size: 20px;
+  justify-content: space-between;
 }
 
 .ant-layout-header a {
@@ -60,15 +60,41 @@
   text-align: center;
 }
 
-.nameHeader {
-  left: -9%;
-  color: white;
-  position: relative;
+.allLinks {
+  display: none;
 }
+.allLinksMob {
+  display: block;
+}
+
+.footer {
+  background-color: #19191a;
+}
+
+.homeImage {
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  border: none;
+  display: block;
+}
+
 @media only screen and (min-width: 600px) {
   .nameHeader {
     color: "white";
     position: relative;
-    left: -79%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .allLinks {
+    display: block;
+  }
+  .allLinksMob {
+    display: none;
+  }
+
+  .ant-layout-footer {
+    background: rgb(36, 39, 39);
+    text-align: center;
   }
 }

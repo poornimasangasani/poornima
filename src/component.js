@@ -1,26 +1,80 @@
-import React, { Component } from "react";
-import { Layout } from "antd";
+import React from "react";
+import { Layout, Drawer } from "antd";
 import "antd/dist/antd.css";
+import { FullscreenOutlined } from "@ant-design/icons";
 import AppRoutes from "./AppRoutes";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 const { Header, Content, Footer } = Layout;
 
-class Page extends Component {
+class Page extends React.PureComponent {
+  state = {
+    visible: false,
+  };
+
+  showDrawer = () => {
+    this.setState({
+      visible: true,
+    });
+  };
+  onClose = () => {
+    this.setState({
+      visible: false,
+    });
+  };
   render() {
     return (
       <Router>
         <Layout style={{ height: "100vh" }}>
-          <Header>
-            <span className="nameHeader">Poornima</span>
-            <Link to="/">Home</Link> &nbsp; &nbsp;
-            <Link to="/resume">Resume</Link> &nbsp; &nbsp;
-            <Link to="/about">About</Link>
+          <Header style={{ color: "white", backgroundColor: "#19191A" }}>
+            <div>
+              <span>Poornima</span>
+            </div>
+            <div className="allLinksMob">
+              <FullscreenOutlined onClick={() => this.showDrawer()} />
+            </div>
+            <div className="allLinks">
+              <Link to="/">Home</Link> &nbsp; &nbsp;
+              <Link to="/resume">Resume</Link> &nbsp; &nbsp;
+              <Link to="/about">About</Link>
+            </div>
           </Header>
           <Content>
             <AppRoutes />
           </Content>
-          <Footer>Footer</Footer>
+          <Footer
+            className="footer"
+            style={{
+              backgroundColor: "#19191a",
+              color: "white",
+              position: "fixed",
+              bottom: 0,
+              width: "100%",
+            }}
+          >
+            @ 2020 Poornima
+          </Footer>
         </Layout>
+
+        <Drawer
+          width={200}
+          onClose={this.onClose}
+          visible={this.state.visible}
+          bodyStyle={{ paddingBottom: 80 }}
+        >
+          <div style={{ display: "flex", flexWrap: "wrap", width: "40px" }}>
+            <Link to="/" onClick={this.onClose}>
+              Home
+            </Link>{" "}
+            &nbsp;
+            <Link to="/resume" onClick={this.onClose}>
+              Resume
+            </Link>{" "}
+            &nbsp;
+            <Link to="/about" onClick={this.onClose}>
+              About
+            </Link>
+          </div>
+        </Drawer>
       </Router>
     );
   }
