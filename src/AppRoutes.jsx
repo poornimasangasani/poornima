@@ -7,13 +7,13 @@ class AppRoutes extends Component {
   render() {
     return (
       <Switch>
-        <Route path="/about">
+        <Route path="/poornima/about">
           <About />
         </Route>
-        <Route path="/resume">
+        <Route path="/poornima/resume">
           <Resume />
         </Route>
-        <Route exact path="/">
+        <Route exact path="/poornima">
           <Home />
         </Route>
       </Switch>

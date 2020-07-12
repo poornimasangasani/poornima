@@ -33,9 +33,9 @@ class Page extends React.PureComponent {
               <FullscreenOutlined onClick={() => this.showDrawer()} />
             </div>
             <div className="allLinks">
-              <Link to="/">Home</Link> &nbsp; &nbsp;
-              <Link to="/resume">Resume</Link> &nbsp; &nbsp;
-              <Link to="/about">About</Link>
+              <Link to="/poornima">Home</Link> &nbsp; &nbsp;
+              <Link to="/poornima/resume">Resume</Link> &nbsp; &nbsp;
+              <Link to="/poornima/about">About</Link>
             </div>
           </Header>
           <Content>
@@ -62,15 +62,15 @@ class Page extends React.PureComponent {
           bodyStyle={{ paddingBottom: 80 }}
         >
           <div style={{ display: "flex", flexWrap: "wrap", width: "40px" }}>
-            <Link to="/" onClick={this.onClose}>
+            <Link to="/poornima" onClick={this.onClose}>
               Home
             </Link>{" "}
             &nbsp;
-            <Link to="/resume" onClick={this.onClose}>
+            <Link to="/poornima/resume" onClick={this.onClose}>
               Resume
             </Link>{" "}
             &nbsp;
-            <Link to="/about" onClick={this.onClose}>
+            <Link to="/poornima/about" onClick={this.onClose}>
               About
             </Link>
           </div>
