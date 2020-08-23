@@ -1,0 +1,206 @@
+#root {
+  text-align: center;
+}
+.container {
+  height: 10px;
+  position: relative;
+}
+
+.nameHeader {
+  font-size: 35px;
+  position: relative;
+  left: 40px;
+  color: white;
+}
+
+.nameHeader:hover {
+  color: white;
+}
+
+.header {
+  height: 60px;
+  background-color: rgb(25, 122, 160);
+  color: black;
+  display: flex;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  justify-content: space-between;
+}
+.navLinks {
+  position: relative;
+  right: 50px;
+  font-size: 20px;
+}
+
+.sideBody {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.bodywrap {
+  background-color: rgb(230, 230, 230);
+  position: relative;
+  width: 100%;
+}
+
+.footer {
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  background-color: rgb(25, 122, 160);
+  color: white;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+.footerText {
+  top: 10px;
+  position: relative;
+}
+
+.navList {
+  display: none;
+}
+
+.myProfileImage {
+  width: 300px;
+  height: 300px;
+  border-radius: 400px;
+  background-image: url("assets/profileImg.jpg");
+  background-size: 275px 350px;
+  background-repeat: no-repeat;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.homeImage {
+  margin-top: 130px;
+}
+
+.profession {
+  font-size: 20px;
+}
+.location {
+  font-size: 20px;
+}
+
+.github {
+  font-size: 20px;
+  color: black;
+}
+.email {
+  font-size: 20px;
+}
+.linkedin {
+  font-size: 20px;
+}
+a.githublink {
+  color: rgba(0, 0, 0, 0.65);
+}
+a.linkedinlink {
+  color: rgba(0, 0, 0, 0.65);
+}
+a.emaillink {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.quote {
+  color: white;
+  font-family: Dancing Script, cursive;
+  position: relative;
+  top: 160px;
+  font-size: 50px;
+}
+
+.homeContainer {
+  background-color: rgb(25, 122, 160);
+  color: rgb(240, 212, 212);
+  height: 90vh;
+}
+@media only screen and (max-width: 600px) {
+  .homeContainer {
+    background-color: rgb(25, 122, 160);
+    color: rgb(240, 212, 212);
+    height: 90vh;
+  }
+
+  .myProfileImage {
+    background-size: 135px 167px;
+  }
+  .navLinks {
+    display: none;
+  }
+  .navList {
+    display: block;
+    position: relative;
+    right: 10px;
+  }
+
+  .nameHeader {
+    left: 20px;
+    font-size: 25px;
+  }
+  .resume {
+    width: "50px";
+    height: "50vh";
+  }
+
+  .myProfileImage {
+    width: 140px;
+    height: 140px;
+    margin: 20px;
+  }
+  .homeImage {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .profession {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .location {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .quote {
+    top: 100px;
+    top: 30vh;
+    font-size: 30px;
+    padding: 30px;
+  }
+
+  body a {
+    color: rgba(0, 0, 0, 0.65);
+  }
+  .github {
+    font-size: 10px;
+    color: black;
+    padding: 5px;
+  }
+  .email {
+    font-size: 10px;
+    color: black;
+    padding: 5px;
+  }
+  .linkedin {
+    font-size: 10px;
+    color: black;
+    padding: 5px;
+  }
+}
+
+body a {
+  color: white;
+}
+.navLinks a:hover {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
