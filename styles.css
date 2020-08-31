@@ -138,7 +138,9 @@ a.emaillink {
     display: block;
     position: relative;
     right: 10px;
+    color: #fff
   }
+
 
   .nameHeader {
     left: 20px;
